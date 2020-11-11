@@ -125,3 +125,23 @@ br {
     display: none;
   }
 }
+
+@media screen and (max-width: 800px) and (min-height: 450px) and (max-height: 650px) {
+  body {
+    height: 672px;
+    position: unset;
+  }
+
+  .img {
+    transform: translateY(172px);
+  }
+
+  .main-container {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .categories {
+    transform: translateY(212px);
+  }
+}
